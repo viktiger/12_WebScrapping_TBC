@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mission to Mars</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <body class="text-white" style="background-color: grey;">
+    <div class="container">
+
+      <div class="jumbotron text-center"
+        style="background-image: url(https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg); height: 400px; background-position: center; background-size: cover;">
+        <h1 class="display-3"><b>Mission to Mars</b></h1>
+        <p><a class="btn btn-danger btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+      </div>
+
+      <div class="TitlePage">
+        <img src="BackgroundTitlePage.jpg" alt="BackgroundTitlePage!" style="width:100%;" />
+        <br>
+      </div>
+
+      <div class="container">
+        <div class="dropdown-divider"></div>
+        <div class="About">
+          <br>
+          <h3 class="text-center">About Project</h3>
+          <br>
+          <p>Sharing data analysis previously completed, via a website to the public domain</p>
+          <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="dropdown-divider"></div>
+        <div class="Comparison"></div>
+        <br>
+        <h3 class="text-center">Comparing Cities Latitude</h3>
+        <br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig1.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3>vs. Temperature</h3>
+              <p>Using openweather API this analysis shows the correlation between a cities latitude and its' max
+                temperature (F) - snapshot taken on given date in 2017</p>
+              <p><a href="Visualization1.html" class="btn btn-primary" role="button">Click Me!</a> <a
+                  href="Visualization1.html" class="btn btn-default" role="button">Navigate here for more details</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig2.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3>vs. Humidity</h3>
+              <p>Using openweather API this analysis shows the correlation between a cities latitude and its' humidity
+                (%) - snapshot taken on given date in 2017</p>
+              <p><a href="Visualization2.html" class="btn btn-primary" role="button">Click Me!</a> <a
+                  href="Visualization2.html" class="btn btn-default" role="button">Navigate here for more details</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig3.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3>vs. Cloudiness</h3>
+              <p>Using openweather API this analysis shows the correlation between a cities latitude and its' cloudiness
+                (%) - snapshot taken on given date in 2017</p>
+              <p><a href="Visualization3.html" class="btn btn-primary" role="button">Click Me!</a> <a
+                  href="Visualization3.html" class="btn btn-default" role="button">Navigate here for more details</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig4.jpg" alt="..." class="img-thumbnail">
+            </div>
+            <div class="caption">
+              <h3>vs. Wind Speed</h3>
+              <p>Using openweather API this analysis shows the correlation between a cities latitude and its' wind speed
+                (mph) - snapshot taken on given date in 2017</p>
+              <p><a href="Visualization4.html" class="btn btn-primary" role="button">Click Me!</a> <a
+                  href="Visualization4.html" class="btn btn-default" role="button">Navigate here for more details</a>
+              </p>
+            </div>
+
+            <br>
+          </div>
+
+          <div class="container">
+            <div class="dropdown-divider"></div>
+            <div class="Datasource"></div>
+            <h3 class="text-center">Data</h3>
+            <br>
+            <div class="row">
+              <div class="Data" style="width: 65rem;">
+                <div class="Data-table">
+                  <img src="Resources/Datasource.jpg" alt="..." style="width:100%;">
+                  <br><br>
+                  <a href="Data.html" class="btn btn-primary" style="position: relative; left:45%; top: 90%;">Click me
+                    for more details!</a>
+                  <br><br><br><br><br><br>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="row">
+    <div class="dropdown-divider"></div>
+      <div class="col">
+        <h3 class="text-center">Progress Bar</h3>
+          <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                50%
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <h3 class="text-center">Buttons</h3>
+    <div class="row">
+    <div class="dropdown-divider"></div>
+      <button type="button" class="btn btn-default">Default Button</button>
+      <button type="button" class="btn btn-primary">Primary Button</button>
+      <button type="button" class="btn btn-danger">Danger Button</button>
+      <button type="button" class="btn btn-info">Info Button</button>
+      <button type="button" class="btn btn-warning">Warning Button</button>
+    </div>
+    </div> -->
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+              integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+              crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+              integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+              crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+              integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+              crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
